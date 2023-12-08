@@ -2,7 +2,7 @@
 INTRODUCCIÓN
 ============
 Comencemos por escribir nuestro primer programa. "Hello, World" posiblemente sea el programa más escrito por la comunidad de desarrollo, 
-ya que se ha convertido en el punto de partida para quienes desean aprender un nuevo lenguaje de programación.
+ya que se ha convertido en el punto de partida para quienes desean aprender un nuevo lenguaje de programación, no solo Python.
 
 El comando [print] nos permite mostrar un mensaje en pantalla. Para lograrlo, dicho mensaje debe estar encerrado entre comillas dobles o simples.
 
@@ -11,8 +11,15 @@ A continuación, podrás observar un ejemplo.
 
 
 print("Hello world!")   # Ejemplo de impresion de un mensaje en pantalla usando comillas dobles
+print()             # <--- dejamos un espacio para facilitar la lectura de los resultados en la terminal
+
 
 print('Hello world!')   # Mismo ejemplo pero utilizando comillas simples
+print()
+
+print("====================")
+print(":    HOLA MUNDO    :")
+print("====================")
 
 
 """

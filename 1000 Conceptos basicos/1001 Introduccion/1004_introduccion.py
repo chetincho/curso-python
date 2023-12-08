@@ -1,10 +1,12 @@
 
 
-print("@" * 5)
+print("-"*1 + " "*16 + "-"*1)  #18
+print("-"*3 + " "*12 + "-"*3)  #18
+print("-"*5 + " "*8  + "-"*5)  #18
+print("-"*7 + " "*4  + "-"*7)  #18
+print("-"*9 + "-"*9)           #18
+print("-"*7 + " "*4  + "-"*7)  #18
+print("-"*5 + " "*8  + "-"*5)  #18
+print("-"*3 + " "*12 + "-"*3)  #18
+print("-"*1 + " "*16 + "-"*1)  #18
 
-print("$" * 10)
-
-print("|" * 15)
-
-
-# print("*" + 15)  <-- Da error, no se puede usar el operador de suma, resta o división

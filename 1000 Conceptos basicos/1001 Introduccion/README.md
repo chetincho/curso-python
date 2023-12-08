@@ -1,15 +1,15 @@
-# Unidad Conceptos básicos
+# Introducción
+En esta breve introducción veremos el uso de la función print.
+Esta función nos permitirá ver en pantalla los resultados de nuestros primeros algoritmos.
 
-1. Introduccion
+En el archivo 1001_introduccion.py esta el código de nuestro primer programa, se trata del clásico Hello world! junto con algunas variantes.
 
-2. Comentarios
+¿Cómo se usa print?
+Podemos aprovecha la funcion print de distintas maneras, en esta introducción nos vamos a limitar a mostrar caracteres en pantalla.
+Para lograr esto la sintaxis es la siguiente:
 
-3. Variables
+`print("Aquí va el texto a mostrar en pantalla")`
 
-4. Operadores matematicos
+Podemos usar comillas dosbles o simples pero nunca una cambonacion de ambas, si lo haces tu programa dera error:
 
-5. Operadores lógicos
-
-6. Built-in functions
-
-7. Pep 8: Guia de estilos de Python
+`print("Hola mundo con error')`
