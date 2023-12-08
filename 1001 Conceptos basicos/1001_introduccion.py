@@ -1,6 +1,8 @@
 """
+INTRODUCCIÓN
+============
 Comencemos por escribir nuestro primer programa. "Hello, World" posiblemente sea el programa más escrito por la comunidad de desarrollo, 
-ya que se ha convertido en el puntapié inicial para quienes desean aprender un nuevo lenguaje de programación.
+ya que se ha convertido en el punto de partida para quienes desean aprender un nuevo lenguaje de programación.
 
 El comando [print] nos permite mostrar un mensaje en pantalla. Para lograrlo, dicho mensaje debe estar encerrado entre comillas dobles o simples.
 
