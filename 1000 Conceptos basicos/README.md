@@ -1,15 +1,7 @@
-# Unidad <Conceptos básicos>
+# 1000 Conceptos básicos
 
-1. Introduccion
+1. 1001 Introduccion
 
-2. Comentarios
+2. 1002 Comentarios
 
-3. Variables
-
-4. Operadores matematicos
-
-5. Operadores lógicos
-
-6. Built-in functions
-
-7. Pep 8: Guia de estilos de Python
+3. 1003 Variables
