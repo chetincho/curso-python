@@ -1,7 +1,9 @@
 # Conceptos básicos
 
-1. 1001 - Introduccion
+1. 1100 - Introduccion
 
-2. 1002 - Comentarios
+2. 1200 - Comentarios
 
-3. 1003 - Variables
+3. 1300 - Variables
+
+4. 1400 - Operadores
