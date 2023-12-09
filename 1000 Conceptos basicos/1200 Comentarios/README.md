@@ -22,4 +22,4 @@ Los comentarios de una línea (#) los podés usar arriba, abajo o a la derecha d
 
 ` print("Hola mundo!")      # Esto es un comentario`
 
-Te invito a que revises el archivo **1002_comentarios.py** para que veas en acción el uso de comentarios.
+Te invito a que revises el archivo **1201_comentarios.py** para que veas en acción el uso de comentarios.

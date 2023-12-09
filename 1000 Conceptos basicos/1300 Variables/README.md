@@ -22,4 +22,4 @@ Las variables pueden ser de tipo:
     ` es_hombre = False`
     ` es_no_binario = False`
 
-Por último Python nos da una función la cual nos permite conocer el tipo de una variable, estamos hablando de la función type(). Veamos cómo funciona la función type en el archivo **1003_variables.py**
+Por último Python nos da una función la cual nos permite conocer el tipo de una variable, estamos hablando de la función type(). Veamos cómo funciona la función type en el archivo **1301_variables.py**

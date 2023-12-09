@@ -1,7 +1,7 @@
-# 1000 Conceptos básicos
+# Conceptos básicos
 
-1. 1001 Introduccion
+1. 1001 - Introduccion
 
-2. 1002 Comentarios
+2. 1002 - Comentarios
 
-3. 1003 Variables
+3. 1003 - Variables
