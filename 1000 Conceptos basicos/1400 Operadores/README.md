@@ -10,23 +10,24 @@ Utilizados, por lo general, con valores numéricos
 * Multiplicación (*) Ej: `multiplicacion = 3*4`
 * División (/) Ej: `multiplicacion = 4/2` , tener en cuenta que el resultado de una división siempre retornara un valor de tipo float.
 * Módulo o resto de la división (%) Ej: `modulo = 5%2`
-* Potencia
-potencia ** base y potencia
+* Potencia (**) Ej: `potencia = 5**2` (5 es la base y 2 es la potencia)
 
-sumar dos textos los concatena
+Adicional podemos usar el operador de suma (+) para concatenar dos cadenas de texto y el operador de multiplicación para duplicar valores.
 
-podemos multiplicar un texto por un nro entero
+`texto_concatenado = "Texto1" + "Texto2"`
+Resultado = Texto1Texto2
+`texto_multiplicado = "Texto1" * 3`
+Resultado = Texto1Texto1Texto1
 
-operadores comparativos o relacionales, nos permiten comparar dos o mas variables
-devuelven tru o false
+Te sugiero que revises el archivo **1401_operadores.py** para ver estos ejemplos en acción.
 
-mayor que >
-menor que <
-mayor igual >=
-menor igual <=
-igualdad ==
-distitnto !=
+Operadores lógicos o comparativos:
+Nos permite comparar dos o mas variables devolviendo como valor True (verdadero) o False (falso).
+* Mayor que (>) Ej: 1 > 2 False
+* Menor que (<) Ej: 1 < 2 True
+* Mayor igual que (>=) Ej: 1 >= 2 False
+* Menos igual que (<=) Ej: 1 <= 2 True
+* Igual que (==) Ej: 1 == 2 False
+* Distinto que (!=) Ej: 1 != 2 True
 
-`es_no_binario = False`
-
-Por último Python nos da una función la cual nos permite conocer el tipo de una variable, estamos hablando de la función type(). Veamos cómo funciona la función type en el archivo **1401_variables.py**
+En el archivo **1402_operadores.py** podes ver un ejemplo para cada operador lógico.
