@@ -7,3 +7,5 @@
 3. 1300 - Variables
 
 4. 1400 - Operadores
+
+5. 1500 - Built-in functions
