@@ -10,7 +10,7 @@ lenguajes[2] = "Rust"
 print(lenguajes)
 print()
 
-# Incorporacion de valores a una lista usando la funcion extend
+# Incorporación de valores a una lista usando la función extend
 lenguajes.extend(["SQL", "Go", "C#"])
 print(lenguajes)
 print()
@@ -20,7 +20,7 @@ lenguajes = ["Python", "Java", "C#", "PHP", "Ruby"]
 print(lenguajes)
 print()
 
-# Incorporacion de valores pero esta vez con la funcion append
+# Incorporacion de valores pero esta vez con la función append
 lenguajes.append(["SQL", "Go", "C#"])
 print(lenguajes)
 print()
@@ -29,7 +29,7 @@ print()
 print(lenguajes[5][1])
 print()
 
-# Tambien lo podemos hacer de esta forma dado que la sublista es el ultimo
+# También lo podemos hacer de esta forma dado que la sublista es el ultimo
 # elemento de la lista principal
 print(lenguajes[-1][1])
 print()

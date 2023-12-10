@@ -6,7 +6,7 @@ print()
 
 
 # De esta forma accedemos al tercer elemento de nuestra lista, 
-# para mostrar los valores en pantalla usamos la funcion print.
+# para mostrar los valores en pantalla usamos la función print.
 print(f"El tercer elemento de la lista lenguajes es: {lenguajes[2]}")
 print()
 
