@@ -1,6 +1,6 @@
 print()
 
-# Así se define una lista
+# Así se define una tupla
 print("Top 5 lenguajes de programación")
 lenguajes = ["Python", "Java", "C#", "PHP", "Ruby"]
 print(lenguajes)
