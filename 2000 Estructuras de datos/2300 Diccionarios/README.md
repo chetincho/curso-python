@@ -1,35 +1,38 @@
 # Diccionarios
 
 Características:
-* Almacenan informacion en pares de datos llamados clave y valor donde cada valor corresponde a una llave.
-* Las llaves no pueden repetirse, pero los valores si.
-* Se definen entre llanes  {} declarando cada par de clave valor separados ambos con un dos puntos :
+* Los diccionarios almacenan información en pares de datos llamados clave y valor, donde cada valor le corresponde una y solo una clave.
+* Las claves no pueden repetirse, pero los valores si, es decir, las claves son ÚNICAS, pero un valor puede repetirse dentro de la estructura de un diccionario. 
+* Son estructuras de datos mutables, es decir, pueden cambiar luego de haber sido definidas.
 
-datos_personales =  {
-                        nombre: "Ana"
-                        apellido: "Perez"
-                        edad: 20
-                        altura: 1.60
-                        nacionalidad: "Argentina"
-                    }
-* Para acceder a un valor lo hacemos por la llave.
+Definición:
+Los diccionarios se definen entre llanes {} declarando cada par clave/valor separados ambos con un dos puntos (:) y cada par de elementos se separa por una coma
 
-datos_personales["nombre"] = Ana
-* POdemos añadir valores declarando para ello el nuevo par llave valor
+`datos_personales =  {`
+                        `nombre: "Ana",`
+                        `apellido: "Perez",`
+                        `edad: 20,`
+                        `altura: 1.60,`
+                        `nacionalidad: "Argentina"`
+                        `pais_residencia: "Argentina"`
+                    `}`
 
-datos_personales["fecha_nacimineto"] =  22/11/1984
+Manipulación:
+* Para acceder a un valor dentro de un diccionario lo hacemos por medio de la clave a la cual esta asociado dicho valor. para acceder al valor "Ana" lo hacemos de la siguiente manera.
+`datos_personales["nombre"]`
 
-* No podemos tener dos llaves iguales, las llaves son unicas
+* Para editar un valor primero accedemos al diccionario con su clave y a continuacion utilizando el signo igual (=) asociamos el nuevo valor para dicha clave.
+`datos_personales["nombre"] = "Lorena"`
 
-* Podemos modificar un valor de una llave.
-* Los valores pueden ser otras estructuras de datos
+* Tambien podemos añadir nuevos elementos a un diccionario, para ello solo basta con definir un nuevo par clave/valor.
+`datos_personales["fecha_nacimineto"] =  22/11/1984`
 
-datos_personales["ideomas"] = ["inglres", "español", "frances"]
+* Al igual que en las listas y tuplas los valores pueden estar contenidos en otras estructuras de cálculo.
+`datos_personales["ideomas"] = ["inglés", "español", "frances"]`
 
-* funciones:
-    items: devuelve una tapla con los pares llave valor
-    keys: deveulve una lista con las llaves del diccionario
-    values: devuelve una lista con los valores del diccionario
+* Por ultimo los diccionarios poseen las siguientes funciones:
+    - items: devuelve una tupla por cada par clave/valor del diccionario.
+    - keys: devuelve una lista conteniendo unicamente las claves del diccionario.
+    - values: devuelve una lista conteniendo unicamente los valores del diccionario.
 
-
-`lenguajes[2:4]`
+Te dejamos un ejemplo de definición y manipulación de diccionarios en el archivo **2301_introduccion_diccionarios.py**.
