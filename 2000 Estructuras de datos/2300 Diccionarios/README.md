@@ -1,27 +1,35 @@
 # Diccionarios
 
 Características:
-* Para su definición se utilizan paréntesis ( ) y sus elementos se separan por comas (,)
-* Una tupla almacena sus elementos de forma ordenada, es decir, los elementos mantienen el orden en el cual fueron declarados.
-* Los elementos que componen una tupla pueden ser de distinto tipo.
-* Las tuplas admiten elementos repetidos.
-* Son inmutables, es decir, los valores que componen un tupla NO pueden ser modificados luego de que ésta ha sido creada. Esta es la principal característica la cual diferencia a una tupla de una lista.
+* Almacenan informacion en pares de datos llamados clave y valor donde cada valor corresponde a una llave.
+* Las llaves no pueden repetirse, pero los valores si.
+* Se definen entre llanes  {} declarando cada par de clave valor separados ambos con un dos puntos :
 
-Definición:
-Esta es la sintaxis para definir una estructura de datos de tipo tupla, en este ejemplo puntual vamos a crear una tupla con el top 5 de los lenguajes de programación más utilizados en 2023:
-`lenguajes = ("Python", "Java", "C#", "PHP", "Ruby")`
-En el archivo **2201_introduccion_tuplas.py** podrás encontrar varios ejemplos de definiciones de tuplas.
+datos_personales =  {
+                        nombre: "Ana"
+                        apellido: "Perez"
+                        edad: 20
+                        altura: 1.60
+                        nacionalidad: "Argentina"
+                    }
+* Para acceder a un valor lo hacemos por la llave.
 
-Manipulación
-* ¿Cómo accedemos a los elementos de una tupla?
-Al igual que con las listas, las tuplas trabajan con índices, el primer elemento recibe el índice 0, el segundo 1 el tercero 2 y así sucesivamente. Por ende, para acceder al tercer elemento de la tupla lenguajes lo hacemos de la siguiente manera: 
-`lenguajes[2]`
+datos_personales["nombre"] = Ana
+* POdemos añadir valores declarando para ello el nuevo par llave valor
 
-* Segmentos:
-También podemos acceder a una porción de la tupla (segmento), esto lo hacemos de la siguiente manera:
+datos_personales["fecha_nacimineto"] =  22/11/1984
+
+* No podemos tener dos llaves iguales, las llaves son unicas
+
+* Podemos modificar un valor de una llave.
+* Los valores pueden ser otras estructuras de datos
+
+datos_personales["ideomas"] = ["inglres", "español", "frances"]
+
+* funciones:
+    items: devuelve una tapla con los pares llave valor
+    keys: deveulve una lista con las llaves del diccionario
+    values: devuelve una lista con los valores del diccionario
+
+
 `lenguajes[2:4]`
-Donde 2 es el tercer elemento de la tupla y 4 es el último elemento -1 que deseamos mostrar, en este caso el resultado sería C# y PHP.
-
-En el archivo **2202_introduccion_tuplas** podes ver dos ejemplos de consulta/acceso a elementos en la tupla lenguajes.
-
-* Al principio dijimos que las tuplas son inmutables, es decir, que NO podemos modificar sus valores luego de que tupla fue definida.  Debido a esto las tuplas no posee definidas funciones del tipo append y extend.
