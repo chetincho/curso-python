@@ -1,27 +1,22 @@
-# Sets o Conjuntos
+# Set o Conjuntos
 
 Características:
-* Para su definición se utilizan paréntesis ( ) y sus elementos se separan por comas (,)
-* Una tupla almacena sus elementos de forma ordenada, es decir, los elementos mantienen el orden en el cual fueron declarados.
-* Los elementos que componen una tupla pueden ser de distinto tipo.
-* Las tuplas admiten elementos repetidos.
-* Son inmutables, es decir, los valores que componen un tupla NO pueden ser modificados luego de que ésta ha sido creada. Esta es la principal característica la cual diferencia a una tupla de una lista.
+* Los sets o conjuntos son una colección de elementos ÚNICOS, es decir, los valores contenidos en un set no pueden esta repetidos. Si intentamos agregar un valor que ya esté presente en la estructura de datos el set directamente ignora la inserción.
+* Su estructura no está ordenada.
+* Los valores de un set pueden ser de distintos tipos.
+* Para acceder a sus elementos no utilizamos índices, al ser valores únicos para acceder a un elemento en particular lo hacemos por utilizando el valor en si.
+* Los valores contenidos en un set son inmutables, es decir, no podemos editar un valor luego de que el set ha sido definido.
 
 Definición:
-Esta es la sintaxis para definir una estructura de datos de tipo tupla, en este ejemplo puntual vamos a crear una tupla con el top 5 de los lenguajes de programación más utilizados en 2023:
-`lenguajes = ("Python", "Java", "C#", "PHP", "Ruby")`
-En el archivo **2201_introduccion_tuplas.py** podrás encontrar varios ejemplos de definiciones de tuplas.
+* Para definir un set utilizamos llaves y separamos con una coma cada elemento.
 
-Manipulación
-* ¿Cómo accedemos a los elementos de una tupla?
-Al igual que con las listas, las tuplas trabajan con índices, el primer elemento recibe el índice 0, el segundo 1 el tercero 2 y así sucesivamente. Por ende, para acceder al tercer elemento de la tupla lenguajes lo hacemos de la siguiente manera: 
-`lenguajes[2]`
+`numeros = {1,2,3}`
+`idiomas = {"ingles", "español", "francés"}`
 
-* Segmentos:
-También podemos acceder a una porción de la tupla (segmento), esto lo hacemos de la siguiente manera:
-`lenguajes[2:4]`
-Donde 2 es el tercer elemento de la tupla y 4 es el último elemento -1 que deseamos mostrar, en este caso el resultado sería C# y PHP.
-
-En el archivo **2202_introduccion_tuplas** podes ver dos ejemplos de consulta/acceso a elementos en la tupla lenguajes.
-
-* Al principio dijimos que las tuplas son inmutables, es decir, que NO podemos modificar sus valores luego de que tupla fue definida.  Debido a esto las tuplas no posee definidas funciones del tipo append y extend.
+* Funciones disponibles para el tratamiento de sets.
+    * Con add agregamos un nuevo valor a un set.
+    * Con update podemos agregar "n" valores a un set, siempre y cuando no haya repetidos.
+    * Con len obtenemos la cantidad de elementos contenidos en el set.
+    * Con discard podemos eliminar un elemento del set.
+    * Con remove, al igual que con discard, podemos eliminar un elemento del ser, con la diferencia que si el elemento no está presente en el set nos devuelve un error.
+    * Con clear vaciamos un set.

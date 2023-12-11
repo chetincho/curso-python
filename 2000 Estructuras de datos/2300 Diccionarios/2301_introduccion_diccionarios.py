@@ -1,49 +1,43 @@
 print()
 
-# Así se define un diccionario
-datos_personales = {
-        "nombre": "Ana",
-        "apellido": "Perez",
-        "edad": 20,
-        "altura": 1.60,
-        "nacionalidad": "Argentina",
-        "pais_de_residencia": "Argentina",
-                   }
-print(f"Este es el diccionario definido: {datos_personales}")
+# Así se define un set o conjunto
+numeros = {1,2,3}
+idiomas = {"ingles", "español", "frances"}
 print()
 
-
-# Para acceder al valor contenido en la clave nombre lo hacemos 
-# de la siguiente manera
-print(f"El nombre del usuario es: {datos_personales['nombre']}")
+# Intentamos añadir un valor ya existente en el set numeros
+print(f"El contenido del set numeros es: {numeros}")
+numeros.add(1)
+print(f"Luego de volver a intentar añadir el valor 1 asi quedo el set: {numeros}")
 print()
 
-# Para modificar el valor Ana primero accedemos al dato por medio de la
-# clave y luego utilizando el signo igual asociamos el nuevo valor
-datos_personales["nombre"] = "Lorena"
-print(f"Modificamos el valor Ana por el nuevo valor: {datos_personales['nombre']}")
+# Si necesitamos añadir varios valores a un set usamos la funcion update
+print(f"El contenido del set numeros es: {numeros}")
+numeros.update([1,4,5,5,5,5,5,6])
+print(f"Con update intentamos añadir valores nuevos y repetidos, asi quedo el set: {numeros}")
 print()
 
-# Si queremos incorporar un nuevo dato al diccionario lo hacemos 
-# definiendo un nuevo par clave/valor
-datos_personales["fecha_de_nacimiento"] = "22/11/1984"
-print(f"Volvemos a mostrar el diccionario completo, esta vez con los nuevo valores: {datos_personales}")
+# Si necesitamos saber cual es la cantidad de elementos de un set usamos len
+print(f"La cantidad de elementos del set numeros es: {len(numeros)}")
 print()
 
-# En caso que lo necesitemos, los valores de un diccionario pueden ser
-# otra estructura de dato como una tupla, una lista o incluso otro diccionario
-datos_personales["ideomas"] = ["ingles", "español", "francés"]
-print(f"Volvemos a mostrar el diccionario completo, esta vez con los nuevo valores: {datos_personales}")
+# Si necesitamos quitar un valor del set podemos usar la funcion discard
+print(f"El contenido del set numeros es: {numeros}")
+numeros.discard(4)
+print(f"Con discard eliminamos el valor 4, asi queda el set: {numeros}")
 print()
 
-# Resultado de la función items
-print(datos_personales.items())
+# Tambien podemos la funcion remove para quitar un valor del 
+# set, pero a diferencia de discard si el elemento no forma parte del
+# set la funcion nos va a dar error
+print(f"El contenido del set numeros es: {numeros}")
+numeros.remove(3)
+print(f"Con discard eliminamos el valor 4, asi queda el set: {numeros}")
 print()
 
-# Resultado de la función keys
-print(datos_personales.keys())
-print()
-
-# Resultado de la función values
-print(datos_personales.values())
+# Por ultimo si queremos vaciar un set lo hacemos utilizando la funcion
+# clear
+print(f"El contenido del set numeros es: {numeros}")
+numeros.clear()
+print(f"Luego de ejecutar la funcion clear asi queda el contenido el set numeros: {numeros}")
 print()
