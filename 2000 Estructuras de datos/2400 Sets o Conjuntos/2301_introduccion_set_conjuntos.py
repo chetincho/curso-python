@@ -1,49 +1,45 @@
 print()
 
-# Así se define un diccionario
-datos_personales = {
-        "nombre": "Ana",
-        "apellido": "Perez",
-        "edad": 20,
-        "altura": 1.60,
-        "nacionalidad": "Argentina",
-        "pais_de_residencia": "Argentina",
-                   }
-print(f"Este es el diccionario definido: {datos_personales}")
+# Así se define un Set o Conjunto, como se puede ver un set puede estar
+# compuesto por valores de distinto tipo.
+numeros = {1, 2, 3, 4, 5}
+paises = {"Argentina", "Chile", "Brasil", "Paraguay"}
+mi_set = {1, "Texto", 1.2, True}
+
+print(f"Contenido del conjunto números: {numeros}")
 print()
 
-
-# Para acceder al valor contenido en la clave nombre lo hacemos 
-# de la siguiente manera
-print(f"El nombre del usuario es: {datos_personales['nombre']}")
+# Agregamos un nuevo elemento al conjunto 
+numeros.add(6)
+print(f"Asi queda el conjunto números luego de insertar el valor 6: {numeros}")
 print()
 
-# Para modificar el valor Ana primero accedemos al dato por medio de la
-# clave y luego utilizando el signo igual asociamos el nuevo valor
-datos_personales["nombre"] = "Lorena"
-print(f"Modificamos el valor Ana por el nuevo valor: {datos_personales['nombre']}")
+# Esto es lo que sucede cuando queremos insertar un elemento repetido 
+# a un set.
+numeros.add(7)
+numeros.add(7)
+numeros.add(7)
+print(f"Intentamos insertar el valor 7 tres veces, pero solo lo inserto una vez: {numeros}")
 print()
 
-# Si queremos incorporar un nuevo dato al diccionario lo hacemos 
-# definiendo un nuevo par clave/valor
-datos_personales["fecha_de_nacimiento"] = "22/11/1984"
-print(f"Volvemos a mostrar el diccionario completo, esta vez con los nuevo valores: {datos_personales}")
+# Así podemos insertar varios valores en un solo paso. Tener en cuenta que
+# los valores deben estar contenido entre corchetes. Si intentamos insertar
+# un valor repetido éste no se inserta.
+
+paises.update(["Peru", "Cuba", "España", "España"])
+print(f"Conjunto países: {paises}")
 print()
 
-# En caso que lo necesitemos, los valores de un diccionario pueden ser
-# otra estructura de dato como una tupla, una lista o incluso otro diccionario
-datos_personales["ideomas"] = ["ingles", "español", "francés"]
-print(f"Volvemos a mostrar el diccionario completo, esta vez con los nuevo valores: {datos_personales}")
+# Con len sabemos la cantidad de elementos que posee un Conjunto
+print(f"La cantidad de elementos del set países es: {len(paises)}")
 print()
 
-# Resultado de la función items
-print(datos_personales.items())
+# Con discard podemos eliminar un elemento del set
+numeros.discard(5)
+print(f"Así queda el set números cuando quitamos el elementos 5: {numeros}")
 print()
 
-# Resultado de la función keys
-print(datos_personales.keys())
-print()
-
-# Resultado de la función values
-print(datos_personales.values())
+# Con clear vaciamos un set
+paises.clear()
+print(f"Asi queda el set cuando ejecutamos el comando clear: {paises}")
 print()
