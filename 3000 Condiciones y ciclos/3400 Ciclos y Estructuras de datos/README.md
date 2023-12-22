@@ -1,6 +1,8 @@
-# Ciclo WHILE
+# Ciclos y Listas
 
-Nos permite ejecutar una o mas instrucciones mientras se cumpla una condición.
+Podemos usar ciclos for o while para recorrer una lista, la seleccion de un ciclo u otro dependera de las necesidades de cada desarrollador.
+
+
 
 Estructura:
 
