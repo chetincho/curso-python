@@ -1,7 +1,19 @@
 
 
 def calculadora_avanzada(numero_1, numero_2, simbolo) :
+    """Calcula ecuaciones básicas: suma, resta, multiplicación y división
+    
+    Esta función recibe 3 parametros, dos numéricos y uno de tipo string
+    donde se informa el símbolo de la ecuación
 
+    Args:
+        numero_1 (int): numero 1
+        numero_2 (int): numero 2
+        simbolo (str): [+,-,*,/]
+    
+    Returns:
+        El valor de la ecuación en función del símbolo parametrizado
+    """
     if simbolo == "+" :
         resultado = numero_1 + numero_2
         operacion = "suma"

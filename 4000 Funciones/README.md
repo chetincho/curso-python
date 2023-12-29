@@ -31,4 +31,6 @@ Los parametros se caracterizan por llegar a la funcion con un valor el cual es u
 
 En el archivo 4002_introduccion_funciones_parametros.py podes ver un ejemplo de una funcion que utiliza paramtros para resolver la cantidad de veces que debe mostrar un simbolo en pantalla.
 
+Muchas veces necesitamos deolver un valor al proceso principal, para ello usamos la instruccion return que nos permite devolver valores producto de su procesamineto interno, en el archivo 4003_introduccion_funciones_retornar_valores.py podes ver un ejemplo de una funcion que retorna datos luego de procesarlos
 
+Documentacion de las funciones (docstring):
