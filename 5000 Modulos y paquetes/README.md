@@ -32,3 +32,10 @@ Paso 3: Vamos a crear un archivo llamado `cuadrado.py` el cual va a contener las
 Por último ahora vamos a hacer uso de las funciones contenidas en los módulos `circulo` y `cuadrado` del paquete `figuras_geometricas` para ello vamos a crear el archivo `5003_ejemplo_uso_paquetes.py` fuera de la carpeta `figuras_geometricas` y desde donde vamos a hacer uso de dichas funciones.
 
 Para llamar a las fuciones utilizamos la palabra reservada `from` seguida del nombre de la carpeta la cual contiene los módulos, en este caso, `figuras_geometricas` seguido de un punto (.) y el nombre de la función.
+
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

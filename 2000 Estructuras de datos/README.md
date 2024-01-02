@@ -37,3 +37,10 @@ Tipos de estructuras de datos
 4. Sets o conjuntos
     Definicion: mi_set = {elemento1, elemento2, elemento3, ..., elementon}
     No Puede contenier elementos duplicados
+
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)
