@@ -6,5 +6,4 @@
 - 4000 Funciones
 - 5000 Módulos y paquetes
 
-mail: martin.ferraguti@gmail.com <br>
-linkedin: [linkedin.com/in/martin-ferraguti/](www.linkedin.com/in/martin-ferraguti/)
+📩 martin.ferraguti@gmail.com | 🔗 [Mi Linkedin](https://www.linkedin.com/in/martin-ferraguti/)
