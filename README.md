@@ -7,4 +7,4 @@
 - 5000 Módulos y paquetes
 
 mail: martin.ferraguti@gmail.com <br>
-linkedin: [linkedin.com/in/martin-ferraguti/](linkedin.com/in/martin-ferraguti/)
+linkedin: [linkedin.com/in/martin-ferraguti/](www.linkedin.com/in/martin-ferraguti/)
