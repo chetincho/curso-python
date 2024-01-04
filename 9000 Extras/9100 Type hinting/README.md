@@ -20,8 +20,9 @@ Al utilizar type hinting declaramos junto con la variable el tipo de datos de la
 
 En el archivo `9102_funciones_type_hinting.py` podemos ver un ejemplo del uso de type hinting en la definición de funciones. En este caso la definición de los tipos se hace en la misma linea donde se declara el nombre de la función. Junto con la definición del tipo de datos de los parámetros podemos definir el tipo de datos devuelto por la función, esto lo hacemos con la anotación `-> int :`. En el caso que la función no devolviera ningún valor lo definimos de la siguiente manera `-> None :`
 
+Hasta aca solo hemos realizado anotaciones de tipado en nuestro código, pero como dijimos anteriormente estas anotaciones no son tenidas en cuenta al momento de correr nuestro programa pudiendo asi aparecer errores de tipado durante la ejecucion del mismo. Para pasar a Python de un lenguaje de tipado dinamico a uno de tipado estatico debemos instalar la libreria mypy.
 
-
+Para instalar dicha librería debemos corer el siguiente comando en nuestra terminal: `pip install mypy`. Luego para verificar el tipado de nuestro archivo Python solo basta con correr el comando `mypy` seguido del nombre de nuestro archivo. Ej: `mypy 9103_revision_de_tipado.py`. En este archivo vas a encontrar un ejemplo con dos líneas de código las cuales contienen errores de tipado.
  
 <br>
 <br>
