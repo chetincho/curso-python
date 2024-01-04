@@ -19,3 +19,9 @@ En el archivo **1102_introduccion.py** jugamos con la función print para dibuja
 Continuamos jugando con la función print y en el archivo **1104_instroduccion** utilizamos los operadores * y + para dibujar una figura geométrica.
 
 Te animo a que utilices tu imaginación junto con esta función para que realices un diseño que te desafíe. Practica es la mejor forma de afianzar los conocimientos.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

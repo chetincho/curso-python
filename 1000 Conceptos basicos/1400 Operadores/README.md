@@ -31,3 +31,9 @@ Nos permite comparar dos o mas variables devolviendo como valor True (verdadero)
 * Distinto que (!=) Ej: 1 != 2 True
 
 En el archivo **1402_operadores.py** podes ver un ejemplo para cada operador lógico.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

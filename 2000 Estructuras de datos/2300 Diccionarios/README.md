@@ -36,3 +36,9 @@ Manipulación:
     - values: devuelve una lista conteniendo únicamente los valores del diccionario.
 
 Te dejamos un ejemplo de definición y manipulación de diccionarios en el archivo **2301_introduccion_diccionarios.py**.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

@@ -17,3 +17,9 @@ En el archivo `3302_introduccion_ciclo_while_break.py` tenes un ejemplo del uso 
 
 * `continue`: Nos permite saltear o pasar al próximo elemento de la estructura evitando así la ejecución del resto de las líneas que se encuentran debajo de la palabra reservada continue.
 En el archivo `3303_introduccion_ciclo_while_continue.py` tenes un ejemplo donde gracias a la palabra reservada continue solo se muestran en pantalla los numeros pares contenidos del 0 al 10.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

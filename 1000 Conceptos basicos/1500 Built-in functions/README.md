@@ -19,3 +19,9 @@ Existen muchas mas built-in functions veamos a continuación mas las comunes:
 * type(): Nos muestra de que tipo es una variable. Ej: `str(3)` = int
 
 En el archivo **1501_built-in-functions.py** podes ver cada una de estas funciones en acción.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

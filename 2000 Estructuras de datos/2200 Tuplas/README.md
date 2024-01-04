@@ -25,3 +25,9 @@ Donde 2 es el tercer elemento de la tupla y 4 es el último elemento -1 que dese
 En el archivo **2202_introduccion_tuplas** podes ver dos ejemplos de consulta/acceso a elementos en la tupla lenguajes.
 
 * Al principio dijimos que las tuplas son inmutables, es decir, que NO podemos modificar sus valores luego de que tupla fue definida.  Debido a esto las tuplas no posee definidas funciones del tipo append y extend.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

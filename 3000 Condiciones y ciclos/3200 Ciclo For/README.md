@@ -18,3 +18,9 @@ En el archivo `3203_introduccion_ciclo_for_continue.py` tenes un ejemplo donde g
 También podemos iterar en un rango de números desde hasta, para lograr esto usamos la palabra reservada `range`.
 * Podemos especificar un punto límite: range(11), esto nos va a permitir itarar entre los números del 0 al 10
 * También podemos especificar un rango definido: range(10,15), esto nos va a permitir iterar entre los número del 10 al 14.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)

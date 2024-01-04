@@ -29,3 +29,9 @@ En el archivo `3105_introduccion_condiciones_or.py` tenes un ejemplo.
 
 * not: Se utiliza para negar una condicion, es decir, el bloque de código if se ejecuta si resulta afirmativa la negacion de la condicion.
 En el archivo `3106_introduccion_condiciones_not.py` tenes un ejemplo.
+
+<br>
+<br>
+<br>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Martin_Ferraguti-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=101010)](https://www.linkedin.com/in/martin-ferraguti/)
