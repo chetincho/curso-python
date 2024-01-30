@@ -1,24 +1,29 @@
 # Introducción
-En esta breve introducción veremos el uso de la función print.
-Esta función nos permitirá ver en pantalla los resultados de nuestros primeros algoritmos.
 
-En el archivo **1101_introduccion.py** está el código de nuestro primer programa, se trata del clásico Hello world! junto con algunas variantes.
+Bienvenido al emocionante mundo de la programación en Python. En esta breve introducción nos sumergiremos en el uso de la función `print` la cual te permitirá visualizar en la pantalla los resultados de tus primeros programas.
 
-¿Cómo se usa la función print?
-Podemos usar la función print de distintas maneras, en esta introducción nos vamos a limitar a mostrar caracteres en pantalla.
-Para lograr esto la sintaxis es la siguiente:
+Dentro del archivo **1101_introduccion.py**, encontrarás el código de nuestro primer programa que no es otro que el clásico "¡Hola, Mundo!" junto con algunas variaciones para despertar tu curiosidad.
+
+Uso de la función print:
+La función print es una herramienta versátil pero ahora nos enfocaremos en su capacidad para mostrar caracteres en pantalla. La sintaxis básica es sencilla:
 
 `print("Aquí va el texto a mostrar en pantalla")`
 
-Podemos usar comillas dobles o simples, pero nunca una combinación de ambas, si lo haces tu programa dará error:
+Es importante destacar que puedes utilizar tanto comillas dobles como simples, pero nunca una combinación de ambas, ya que esto generará un error en tu programa:
 
 `print("Hola mundo con error')`
 
-En el archivo **1102_introduccion.py** jugamos con la función print para dibujar un árbol de navidad. A continuación, en el archivo **1103_introduccion.py**, vemos el uso de operadores aritméticos (* y +) y su posible uso en esta función.
+En el archivo **1102_introduccion.py**, llevaremos la función print más allá al crear un programa que dibuja un árbol de Navidad. Luego, en el archivo **1103_introduccion.py**, exploraremos el uso de operadores aritméticos (* y +) y cómo se integran con esta función.
 
-Continuamos jugando con la función print y en el archivo **1104_instroduccion** utilizamos los operadores * y + para dibujar una figura geométrica.
+Continuaremos nuestra travesía en el archivo **1104_introduccion.py**, donde utilizaremos los operadores * y + para crear una intrigante figura geométrica.
 
-Te animo a que utilices tu imaginación junto con esta función para que realices un diseño que te desafíe. Practica es la mejor forma de afianzar los conocimientos.
+Por último, en el archivo **1105_introduccion.py**, te dejo un ejemplo para que puedas darle color al resultado de la función print en consola sin la necesidad de importar librerías.
+
+Te animo a que no te limites a seguir los ejemplos, sino a dejar volar tu imaginación. Experimenta con la función print y crea diseños que desafíen tu creatividad. Recuerda, la práctica constante es la clave para afianzar tus conocimientos. ¡Manos a la obra y diviértete programando!
+
+Desafío Creativo:
+Anímate a crear un diseño o patrón interesante utilizando únicamente la función print y caracteres especiales. ¡Deja volar tu imaginación!
+Si lo deseas puedes enviarme tu código Python a mi cuenta de LinkedIn con el diseño que creaste y lo incorporamos en este repositorio.
 
 <br>
 <br>

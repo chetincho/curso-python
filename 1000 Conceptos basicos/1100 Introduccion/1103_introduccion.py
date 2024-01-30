@@ -19,7 +19,7 @@ print("Comentamos la línea 18 del código dado que da error, no se puede usar s
 print()
 
 
-# El operador de suma + en strings se usa para concatenar/unir cadenas de texto.
+# El operador de suma (+) en strings se usa para concatenar/unir cadenas de texto.
 print("Hola" + "mundo!")
 print()
 # Para separar el texto "Hola" del texto "mundo!" vamos a concatenar una tercera cadena de texto, pero esta vez con un espacio vacío

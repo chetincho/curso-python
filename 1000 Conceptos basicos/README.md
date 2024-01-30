@@ -1,6 +1,7 @@
 # Conceptos básicos
 
 1. 1100 - Introduccion
+Comenzamos viendo la función print la cual nos permitirá ver los resultados en pantalla de nuestros primeros programas.
 
 2. 1200 - Comentarios
 
